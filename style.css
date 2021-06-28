@@ -7,7 +7,47 @@
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
   }
-  nav {
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-right-section a {
+  margin-right: 10px;
+  color: black;
+}
+nav .nav-right-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/1267572-200.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+nav .nav-right-section img {
+  margin-left: 10px;
+}
+
+  /* nav {
       list-style-type: style none;;
       padding: 1.8rem;
       width: 100%;
@@ -16,14 +56,4 @@
       display: inline-block;
       align-items:flex-end;
       flex-wrap: wrap;
-  }
-  /* body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 100vh;
-  } */
-
-  /* float: inline-end;
-  position:absolute; */
+}  */
